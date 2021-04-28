@@ -1,0 +1,115 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body, html{
+	width:100%;
+	height:100%;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+*{
+	text-decoration:none;
+}
+*{
+	box-sizing:border-box;
+}
+body{
+	padding:2.4%;
+}
+.text1{
+	left:0;
+    position: absolute;
+    text-align: center;
+    width:100%;
+    margin-top:-50px;
+    }
+
+.div1{
+	height:100%;
+	width:100%;
+	background-color:#29ABE2;
+    border:40px solid #22B573;
+}
+.box{
+	border:1px solid red;
+	background-color:#fff;
+	width:206px;
+	height:120px;
+	float:right;
+	margin-right:130px;
+	margin-top:79px;
+
+}
+.minibox{
+	background-color:#ED1E79;
+	width:160px;
+	height:80px;
+	margin-top:20px;
+	margin-right:25px;
+	margin-left:25px;
+	margin-bottom: 20px;
+}
+.conteiner{
+	background-color:yellow;
+	width:95%;
+	height:30%;
+	margin:30px;
+}
+.conteiner1{
+	background-color:yellow;
+	width:95%;
+	height:50%;
+	margin-left:25px;
+	padding-left: 500px;
+	padding-top:140px;
+}
+.p5{
+	vertical-align:middle;
+	font-size: 51px;
+}
+.p3{
+	padding-left:43px;
+	padding-top:35px;
+}
